@@ -1,0 +1,90 @@
+@font-face {
+    font-family: pixelFont;
+    src: url(fonts/CrackMan.TTF);
+}
+
+@font-face {
+    font-family: creditFont;
+    src: url(fonts/THELUNATIQUE.TTF);
+}
+
+p{
+	font-family: pixelFont;
+	color:blue;
+	width:400px;
+	font-size:30px;
+	background-color: white;
+}
+
+.startGame{
+	position:relative;
+	top:-312px;
+}
+
+body { 
+	width:100%;
+	height:100%;
+	background-color:black;
+    background-image: url(immagini/sfondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	overflow:hidden;
+}
+
+.myCanvas{
+	background-color:black;
+}
+
+.bordo{
+	border-style: solid;
+	border-color: white;
+	width:782px;
+	height:460px;
+}
+.riga{
+	position:relative;
+	width:788px;
+	top:-156px;
+}
+.score{
+	position:relative;
+	background-color:transparent;
+	width:350px;
+	top:-218px;
+	left:-320px;
+}
+
+.dynamicScore{
+	position:relative;
+	background-color:transparent;
+	width:350px;
+	top:-279px;
+	left:-180px;
+}
+
+.sound{
+	position:relative;
+	background-color:transparent;
+	width:350px;
+	top:-341px;
+	left:210px;
+}
+
+.dynamicSound{
+	position:relative;
+	background-color:transparent;
+	width:350px;
+	top:-403px;
+	left:330px;
+}
+
+.credits{
+	font-family: creditFont;
+	font-size:60px;
+    text-shadow: 1px 1px white;
+	color:black;
+	position:fixed;
+	background-color:transparent;
+	bottom:-35px;
+}
